@@ -2,7 +2,7 @@ import express from 'express';
 const app = express();
 
 import mongoose from 'mongoose';
-mongoose.connect('mongodb://localhost/graphql-mongo')
+mongoose.connect('mongodb://localhost/sporTEC-mongo-Test')
   .then(() => console.log('connected to db'))
   .catch(err => console.log(err));
 import User from './models/User';
